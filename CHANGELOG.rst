@@ -4,7 +4,7 @@ Release History
 
 .. _whats-new:
 
-Version 1.1.0     2015-08-09
+Version 1.1.1     2015-08-09
 ============================
 
 * Renamed from `LconfPygmentsLexer` to ` python_lconf_lexer`
