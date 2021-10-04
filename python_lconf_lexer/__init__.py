@@ -18,3 +18,6 @@ __title__ = "A simple pygments lexer for LCONF."
 __author__ = '`peter1000` https://github.com/peter1000'
 __copyright__ = '(c) 2014 ' + __author__
 __license__ = 'BSD 3-clause license: Consult LICENSE.rst'
+
+from . import _version
+__version__ = _version.get_versions()['version']

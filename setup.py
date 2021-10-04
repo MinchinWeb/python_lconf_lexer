@@ -38,13 +38,6 @@ from setuptools import (
 
 import versioneer
 
-
-versioneer.VCS = 'git'
-versioneer.versionfile_source = 'python_lconf_lexer/_version.py'
-versioneer.versionfile_build = 'python_lconf_lexer/_version.py'
-versioneer.tag_prefix = ''  # tags are like 1.1.0
-versioneer.parentdir_prefix = 'python_lconf_lexer-'  # dirname like 'python_lconf_lexer-1.1.0'
-
 _version = versioneer.get_version()
 
 SCRIPT_PATH = dirname(abspath(getfile(currentframe())))
